@@ -1,0 +1,12 @@
+{
+  "name": "forge-manufacturing-digital-twin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Manufacturing process simulator and software digital twin demonstration",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "serve": "python -m http.server 8000"
+  },
+  "license": "MIT"
+}
