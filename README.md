@@ -114,9 +114,6 @@ At a selectable demand horizon (default **25,000 shipped good units**) with sele
 │   └── styles.css                            # Responsive dashboard style
 ├── tests/
 │   └── model.test.js                         # Automated simulation checks
-├── assets/
-│   ├── dashboard-desktop.png                 # Desktop preview
-│   └── dashboard-mobile.png                  # Mobile preview
 ├── .github/workflows/test.yml                # Node CI tests
 ├── PROJECT_REPORT.md                         # Technical report and limitations
 ├── LICENSE
@@ -124,10 +121,12 @@ At a selectable demand horizon (default **25,000 shipped good units**) with sele
 └── README.md
 ```
 
+**Note:** The original ZIP additionally contains two dashboard PNG preview captures; these optional preview assets have not been uploaded to this repository. The website and 21-test source do not rely on them.
+
 ## Publish on GitHub Pages
 
 1. Create a **separate public repository** for this project, for example `Manufacturing-Digital-Twin`.
-2. Upload/extract these files **at the repository root**. Do not upload only the ZIP.
+2. The application and source files are already uploaded to this public repository.
 3. In GitHub, open **Settings → Pages**.
 4. Select **Deploy from a branch**, branch **main**, folder **/(root)**, and click **Save**.
 5. Once deployment reports success, test the rendered UI at https://oia7.github.io/Manufacturing-Digital-Twin/.
